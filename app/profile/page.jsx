@@ -1,12 +1,10 @@
-import { UserProfile } from '@clerk/nextjs'
 import React from 'react'
-
+import { UserProfile } from '@clerk/nextjs'
 const ProfilePage = () => {
-    return (
+  return (
     <div>
-        <UserProfile />
+      <UserProfile />
     </div>
-    )
+  )
 }
-
 export default ProfilePage
